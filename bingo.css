@@ -1,0 +1,216 @@
+/* PAGE */
+.body-bingo{
+    background-color: #222b38;
+    z-index: 1;
+    position: relative;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo-picture{
+    width: 350px;
+    height: 170px;
+}
+
+/* AMIN PAIGE */
+
+.main-first-game-mode-choice button, .main-second-game-mode-choice button{
+    background-color: rgb(212, 160, 100);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    border: none;
+}
+.main-first-game-mode-choice button:hover, .main-second-game-mode-choice button:hover{
+    background-color: rgb(194, 119, 33);
+}
+
+.main-first-game-mode-choice p, .main-second-game-mode-choice p{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+/* BUTTONS */
+.main-start-game-button, .main-start-second-game-button{
+    display: flex;
+    justify-content: center;
+}
+
+.main-first-game-mode-button, .main-second-game-mode-button{
+    background-color: rgb(212, 160, 100);
+    color: white;
+    padding: 70px;
+    border-radius: 15px;
+    font-size: 2rem;
+    border: none;
+}
+
+.main-word-button, .main-number-button{
+    background-color: rgb(212, 160, 100);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.main-word-button:active{
+    background-color: rgb(204, 135, 55);
+}
+
+.main-new-game-button, .main-new-game-button-two{
+    background-color: rgb(212, 160, 100);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.main-actual-game-buttons, .main-actual-game-buttons-two{
+    display: flex;
+    align-items: center;
+}
+
+.main-word-generated, .main-number-generated{
+    display: flex;
+    margin-left: 30px;
+}
+
+.main-word-generated, .main-number-generated p{
+    font-size: 1.3rem;
+    color: white;
+}
+
+.main-score, .main-score-two{
+    display: flex;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.main-tries-left{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+}
+
+.main-tries-left img{
+    width: 50px;
+    height: 45px;
+    margin-left: 15px;
+}
+
+/* GRID */
+.main-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-grid-css{
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: repeat(5, 150px);
+}
+
+.main-grid-css button{
+    background-color: #FFA500;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.green.active{
+    text-decoration: line-through;
+    background-color: rgb(4, 97, 32);
+}
+
+.red.active{
+    text-decoration: line-through;
+    background-color: rgb(197, 69, 69);
+}
+
+/* WELL DONE */
+.main-well-done-two{
+    display: flex;
+    justify-content: center;
+}
+
+.main-well-done{
+    display: flex;
+    justify-content: center;
+}
+
+.main-well-done-image img{
+    width: 900px;
+    height: 600px;
+}
+
+.main-failed-image{
+    display: flex;
+    justify-content: center;
+}
+
+/* utility classes */
+.hide{
+    display: none;
+}
+
+.appear{
+    display: block;
+}
+
+/* SECOND GAME */
+.main-table-container{
+    display: flex;
+    justify-content: center;
+}
+
+#tblBingo {
+    border-spacing: 2px;
+}
+
+#tblBingo td {
+    background-color: #FFA500;
+    border: none;
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.cell-format {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.letter-div {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letters-bingo {
+    padding: 0 1.3rem;
+    font-size: 5rem;
+    display: none;
+    color: white;
+}
+
+.strickout {
+    text-decoration: line-through;
+    color: white;
+    background-color: rgb(190, 110, 18);
+}
+
+.show-bingo {
+    display: inline;
+}
